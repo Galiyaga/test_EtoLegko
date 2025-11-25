@@ -1,0 +1,165 @@
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+.mk-wrapper,
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.content,
+.mk-wrapper {
+  max-width: 4.8rem;
+  margin: 0 auto;
+}
+
+.card,
+.mk-wrapper,
+.title {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+
+.card__icon svg,
+.title__icon svg {
+  display: block;
+  width: 100%;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 625%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.18rem;
+  font-weight: 400;
+  line-height: 1.17;
+  color: #333;
+  background: #fff;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mk-wrapper {
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0.88rem 0.3rem;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+}
+
+.content__cards {
+  margin: 0.48rem 0;
+}
+
+.card,
+.title__main {
+  margin-bottom: 0.16rem;
+}
+
+.title {
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.title__main {
+  font-size: 0.46rem;
+  font-weight: 700;
+}
+
+.title__subtitle {
+  font-size: 0.24rem;
+  font-weight: 500;
+}
+
+.title__icon {
+  width: 0.74rem;
+  height: 0.57rem;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 0.14rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.16rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.04rem 0.21rem #e9e9e9;
+  box-shadow: 0 0.04rem 0.21rem #e9e9e9;
+  border-radius: 0.08rem;
+}
+
+.card__icon {
+  width: 0.64rem;
+  height: auto;
+  margin: 0 auto 0.16rem;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.card__text {
+  font-weight: 500;
+  padding-left: 0.16rem;
+}
+
+@media (max-width: 479px) {
+  html {
+    font-size: 21vw;
+  }
+}
