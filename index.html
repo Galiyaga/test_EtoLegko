@@ -29,15 +29,25 @@ if (!isset($rawClick)){
 
       <meta name="referrer" content="no-referrer" />
       <!-- Counters first step START  -->
-      <script
-        type="text/javascript"
-        src="../../lander/mv/counters/first.min.js"
-      ></script>
+      <!-- <script
+        type="module"
+        src="{_from_file:universal_widget_combined_file_path}"
+      ></script> -->
+      <!-- Universal widget combined END  -->
+      <!--Маска формы заказа START-->
+      <!-- <script
+        id="form_mask"
+        type="module"
+        src="{_from_file:form_mask_file_path}"
+        data-country="PE"
+      ></script> -->
 
-      <!-- Counters first step END  -->
-
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/index.js"></script>
+      <script src="./script.js"></script>
       <!-- Showcases v2 START  -->
-      <script
+      <!-- <script type="text/javascript" src="../../lander/mv/counters/first.min.js"></script> -->
+      <!-- <script
         data-country="{_country}"
         data-subid="{_subid}"
         data-token="{_token}"
@@ -48,16 +58,41 @@ if (!isset($rawClick)){
         id="showcasesV2"
         src="{_from_file:showcases_v2_file_path}"
         type="module"
-      ></script>
+      ></script> -->
+      <!-- Showcases v2 END  -->
+
+      <!-- <script
+        id="traff_adviser_form_mask"
+        type="module"
+        src="{_from_file:traff_adviser_form_mask}"
+        country="PE"
+      ></script> -->
+      <!--Маска формы заказа END-->
+
+      <!-- Counters first step END  -->
+
+      <!-- Showcases v2 START  -->
+      <!-- <script
+        data-country="{_country}"
+        data-subid="{_subid}"
+        data-token="{_token}"
+        data-offer-id="{_offer_id}"
+        data-api-link="{_from_file:showcases_v2_api_link}"
+        data-campaign-name="{_campaign_name}"
+        data-campaign-id="{_campaign_id}"
+        id="showcasesV2"
+        src="{_from_file:showcases_v2_file_path}"
+        type="module"
+      ></script> -->
       <!-- Showcases v2 END  -->
 
       <!--Маска формы заказа START-->
-      <script
+      <!-- <script
         id="form_mask"
         type="module"
         src="{_from_file:form_mask_file_path}"
         data-country="PE"
-      ></script>
+      ></script> -->
       <!--Маска формы заказа END-->
     </head>
 
@@ -565,10 +600,6 @@ if (!isset($rawClick)){
         </div>
       </div>
 
-      <script src="./js/jquery.min.js"></script>
-      <script src="./js/index.js"></script>
-      <script src="./script.js"></script>
-
       <div class="ever-popup">
         <div
           class="ever-popup__inner"
@@ -632,28 +663,6 @@ if (!isset($rawClick)){
         </div>
       </div>
 
-      <!-- Showcases v2 START  -->
-      <script
-        data-country="{_country}"
-        data-subid="{_subid}"
-        data-token="{_token}"
-        data-offer-id="{_offer_id}"
-        data-api-link="{_from_file:showcases_v2_api_link}"
-        data-campaign-name="{_campaign_name}"
-        data-campaign-id="{_campaign_id}"
-        id="showcasesV2"
-        src="{_from_file:showcases_v2_file_path}"
-        type="module"
-      ></script>
-      <!-- Showcases v2 END  -->
-
-      <script
-        id="traff_adviser_form_mask"
-        type="module"
-        src="{_from_file:traff_adviser_form_mask}"
-        country="PE"
-      ></script>
-
       <!-- Universal widget combined START  -->
       <div
         data-pixid="{pixid}"
@@ -670,19 +679,6 @@ if (!isset($rawClick)){
         data-product-image="img/Arthrolon.png"
         id="universal-widget-combined"
       ></div>
-      <script
-        type="module"
-        src="{_from_file:universal_widget_combined_file_path}"
-      ></script>
-      <!-- Universal widget combined END  -->
-      <!--Маска формы заказа START-->
-      <script
-        id="form_mask"
-        type="module"
-        src="{_from_file:form_mask_file_path}"
-        data-country="PE"
-      ></script>
-      <!--Маска формы заказа END-->
     </body>
   </html>
 </div>

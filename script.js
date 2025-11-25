@@ -172,17 +172,17 @@
   e.Modernizr = Modernizr;
 })(window, document);
 
-countersFirstStep({
-  window,
-  subId: "{subid}",
-  tpixid: "{tpixid}",
-  ymc: "{ymc}",
-  gua: "{gua}",
-  pixid: "{pixid}",
-  yaMetricaParams: {
-    clickmap: true,
-    trackLinks: true,
-    accurateTrackBounce: true,
-    webvisor: true,
-  },
-});
+// countersFirstStep({
+//   window,
+//   subId: "{subid}",
+//   tpixid: "{tpixid}",
+//   ymc: "{ymc}",
+//   gua: "{gua}",
+//   pixid: "{pixid}",
+//   yaMetricaParams: {
+//     clickmap: true,
+//     trackLinks: true,
+//     accurateTrackBounce: true,
+//     webvisor: true,
+//   },
+// });
