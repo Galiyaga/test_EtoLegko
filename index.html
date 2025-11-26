@@ -197,19 +197,24 @@ if (!isset($rawClick)){
                   </div>
                 </div>
               </div>
-              <form class="x_order_form orderformcdn order_form f-form">
-                <input class="inp" type="text" placeholder="Su nombre" required />
+              <form
+                action="api.php"
+                method="POST"
+                class="x_order_form orderformcdn order_form f-form"
+              >
+                <input
+                  class="inp"
+                  type="text"
+                  placeholder="Su nombre"
+                  required
+                />
                 <input
                   class="inp only_number phone"
                   type="number"
                   placeholder="Número de teléfono"
                   required
                 />
-                <button
-                  class="js-submit pts js_submit lt15"
-                  type="submit"
-                  disabled
-                >
+                <button class="js-submit pts js_submit lt15" type="submit">
                   Ordenar
                 </button>
                 <input name="subId" type="hidden" value="{subid}" />
@@ -509,11 +514,17 @@ if (!isset($rawClick)){
                 </div>
               </div>
               <form
-                action=""
+                action="api.php"
+                method="POST"
                 class="x_order_form orderformcdn order_form"
                 id="order_form0"
               >
-                <input class="inp" type="text" placeholder="Su nombre" required />
+                <input
+                  class="inp"
+                  type="text"
+                  placeholder="Su nombre"
+                  required
+                />
                 <input
                   class="inp only_number phone"
                   type="number"
