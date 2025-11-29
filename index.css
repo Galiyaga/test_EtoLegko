@@ -1,3 +1,10 @@
+.future-date {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .ever-popup-build {
   position: fixed;
   opacity: 0;

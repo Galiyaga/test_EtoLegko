@@ -89,27 +89,27 @@ function postDate(
   function addZero(numb) {
     return numb < 10 ? "0" + numb : numb;
   }
-  function changeFirstLetter(isBig, str) {
-    return isBig && str && str.length > 0
-      ? str[0].toUpperCase() + str.slice(1)
-      : str;
-  }
 }
+
+// поставить условие, что body есть
 if (document.body.classList.contains("ev-date")) {
   document.addEventListener("DOMContentLoaded", function () {
     postDate(days, daysMin, months, monthMin, seasons);
   });
 }
-var links = document.querySelectorAll('a[href^="#"]');
 
-for (var i = 0; i < links.length; ++i) {
-  links[i].addEventListener("click", function (event) {
-    event.preventDefault();
-    var elemID = this.getAttribute("href");
+// Повторение функционала скролла
 
-    document.querySelector(elemID).scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  });
-}
+// var links = document.querySelectorAll('a[href^="#"]');
+
+// for (var i = 0; i < links.length; ++i) {
+//   links[i].addEventListener("click", function (event) {
+//     event.preventDefault();
+//     var elemID = this.getAttribute("href");
+
+//     document.querySelector(elemID).scrollIntoView({
+//       behavior: "smooth",
+//       block: "start",
+//     });
+//   });
+// }
