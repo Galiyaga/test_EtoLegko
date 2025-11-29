@@ -699,19 +699,6 @@ h2.green {
   text-transform: uppercase;
 }
 
-/* .logo-text {
-  display: none;
-} */
-
-.men1slide {
-  background: url("../img/muz1.webp") no-repeat;
-  width: 337px;
-  height: 564px;
-  position: absolute;
-  bottom: -269px;
-  left: 299px;
-}
-
 .no-webp .men1slide {
   background: url("../img/muz1.png") no-repeat;
 }
@@ -2127,10 +2114,10 @@ input[type='submit'].styler[disabled] {
   .top_logo img {
     display: none;
   }
-/* 
+
   .logo-text {
     display: block;
-  } */
+  }
 
   .top_logo {
     width: 165px;

@@ -172,6 +172,7 @@
   e.Modernizr = Modernizr;
 })(window, document);
 
+/*  Counters first step START  */
 // countersFirstStep({
 //   window,
 //   subId: "{subid}",
@@ -186,3 +187,4 @@
 //     webvisor: true,
 //   },
 // });
+/*  Counters first step END   */

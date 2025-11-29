@@ -1,9 +1,3 @@
-<?php
-if (!isset($rawClick)){
-    exit();
-}
-?>
-
 <!DOCTYPE html>
   <html lang="es" class="png png-alpha png-animation png-lossless">
     <head>
@@ -14,25 +8,17 @@ if (!isset($rawClick)){
       <link type="text/css" href="./css/style.css" rel="stylesheet" />
       <link type="text/css" href="./index.css" rel="stylesheet" />
       <link rel="icon" href="./img/favicon.ico" />
-      <!-- Counters first step START  -->
+	  
+	  <!-- <script type="text/javascript" src="../../lander/mv/counters/first.min.js"></script> -->
+
+	  <!-- Universal widget combined START  -->
       <!-- <script
         type="module"
         src="{_from_file:universal_widget_combined_file_path}"
       ></script> -->
       <!-- Universal widget combined END  -->
-      <!--Маска формы заказа START-->
-      <!-- <script
-        id="form_mask"
-        type="module"
-        src="{_from_file:form_mask_file_path}"
-        data-country="PE"
-      ></script> -->
-
-      <script src="./js/jquery.min.js"></script>
-      <script src="./js/index.js"></script>
-      <script src="./script.js"></script>
+	  
       <!-- Showcases v2 START  -->
-      <!-- <script type="text/javascript" src="../../lander/mv/counters/first.min.js"></script> -->
       <!-- <script
         data-country="{_country}"
         data-subid="{_subid}"
@@ -47,39 +33,26 @@ if (!isset($rawClick)){
       ></script> -->
       <!-- Showcases v2 END  -->
 
+      <!--Маска формы заказа START-->
+      <!-- <script
+	  id="form_mask"
+	  type="module"
+	  src="{_from_file:form_mask_file_path}"
+	  data-country="PE"
+	  ></script> -->
+	  <!--Маска формы заказа END-->
+	  
       <!-- <script
         id="traff_adviser_form_mask"
         type="module"
         src="{_from_file:traff_adviser_form_mask}"
         country="PE"
       ></script> -->
-      <!--Маска формы заказа END-->
 
-      <!-- Counters first step END  -->
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/index.js"></script>
+      <script src="./script.js"></script>
 
-      <!-- Showcases v2 START  -->
-      <!-- <script
-        data-country="{_country}"
-        data-subid="{_subid}"
-        data-token="{_token}"
-        data-offer-id="{_offer_id}"
-        data-api-link="{_from_file:showcases_v2_api_link}"
-        data-campaign-name="{_campaign_name}"
-        data-campaign-id="{_campaign_id}"
-        id="showcasesV2"
-        src="{_from_file:showcases_v2_file_path}"
-        type="module"
-      ></script> -->
-      <!-- Showcases v2 END  -->
-
-      <!--Маска формы заказа START-->
-      <!-- <script
-        id="form_mask"
-        type="module"
-        src="{_from_file:form_mask_file_path}"
-        data-country="PE"
-      ></script> -->
-      <!--Маска формы заказа END-->
     </head>
 
     <body
@@ -207,7 +180,6 @@ if (!isset($rawClick)){
                 <input name="offerId" type="hidden" value="{offer_id}" />
               </form>
             </div>
-            <!-- <div class="men1slide"></div> -->
           </div>
         </header>
         <div class="slide2">
@@ -670,6 +642,7 @@ if (!isset($rawClick)){
         data-product-image="img/Arthrolon.png"
         id="universal-widget-combined"
       ></div>
+	  <!-- Universal widget combined END  -->
     </body>
   </html>
 </div>
