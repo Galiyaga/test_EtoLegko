@@ -98,18 +98,22 @@ if (document.body.classList.contains("ev-date")) {
   });
 }
 
-// Повторение функционала скролла
+// POPUP
 
-// var links = document.querySelectorAll('a[href^="#"]');
+const popuOpener = document.getElementById("open-popup")
+const popupCloser = document.getElementById("close-popup")
+const popup = document.getElementById("popup-window")
 
-// for (var i = 0; i < links.length; ++i) {
-//   links[i].addEventListener("click", function (event) {
-//     event.preventDefault();
-//     var elemID = this.getAttribute("href");
+function openPopup() {
+    popup.showModal()
+}
 
-//     document.querySelector(elemID).scrollIntoView({
-//       behavior: "smooth",
-//       block: "start",
-//     });
-//   });
-// }
+function closePopup() {
+    popup.close()
+}
+
+popuOpener.addEventListener('click', openPopup)
+popupCloser.addEventListener('click', (e) => {
+    e.stopPropagation()
+    close()
+})

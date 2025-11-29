@@ -30,6 +30,180 @@
   transform: scale(1.1);
 }
 
+/* POPUP */
+.ever-popup-build {
+  position: fixed;
+  opacity: 0;
+  z-index: -1;
+  top: 0;
+  left: -9999px;
+}
+
+.ever-popup__body.ever-mobile {
+  display: none;
+}
+
+.ever-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 111;
+  display: none;
+  overflow: auto;
+}
+
+.ever-popup__body {
+  position: static;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+.ever-popup.show {
+  display: block;
+  align-items: center;
+}
+
+.ever-popup__inner {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.ever-popup__close {
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.ever-popup__close:after,
+.ever-popup__close:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 35px;
+  height: 10px;
+  background: #fff;
+  transition: all 1s;
+}
+
+.ever-popup__close:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.ever-popup__close:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (min-width: 1000px) {
+  .ever-popup__body.ever-desktop {
+    display: none;
+  }
+
+  .ever-popup__body.ever-mobile {
+    display: block;
+  }
+}
+
+.popup {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.popup_left {
+  max-width: 180px;
+  margin: 0 50px;
+}
+
+.form_popup {
+  background: url("../../img/formbg1.webp");
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 25px 10px;
+  max-width: 300px;
+}
+
+.no-webp .form_popup {
+  background: url("../../img/formbg1.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.ever-popup .formbg-header {
+  padding-top: 0;
+}
+
+.ever-popup .price_main {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.ever-popup .lt71 {
+  margin: 10px auto 0;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background: url("../../img/btn.png") no-repeat top center;
+  padding: 20px 45px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 9px;
+  text-transform: uppercase;
+}
+
+.ever-popup .price_old {
+  text-align: center;
+}
+
+.ever-popup .formbg {
+  position: relative;
+}
+
+.ever-popup__inner {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 auto !important;
+  width: auto !important;
+}
+
+.popup-new-price {
+  font-size: 28px;
+}
+
 @media screen and (min-width: 1000px) {
   .phoneBtnContainer {
     position: fixed;
