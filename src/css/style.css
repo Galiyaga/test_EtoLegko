@@ -368,7 +368,7 @@ img {
 }
 
 .btn {
-  background: url("../img/btn.png") no-repeat;
+  background: url("../../../img/btn.png") no-repeat;
   width: 216px;
   height: 58px;
   line-height: 58px;
@@ -441,12 +441,12 @@ header::before {
   position: absolute;
   left: calc(50% - 210px);
   bottom: 0;
-  background: url("../img/muz1.webp") no-repeat;
+  background: url("../../img/muz1.webp") no-repeat;
   z-index: 5;
 }
 
 .no-webp header::before {
-  background: url("../img/muz1.png") no-repeat;
+  background: url("../../img/muz1.png") no-repeat;
 }
 
 header .top-menu {
@@ -502,7 +502,7 @@ header h1 {
 }
 
 header .listslide1 li {
-  background: url("../img/list1.png") 0 50% no-repeat;
+  background: url("../../img/list1.png") 0 50% no-repeat;
   display: table;
   padding-left: 55px;
   color: #40585b;
@@ -537,7 +537,7 @@ header .realworks-block {
   text-align: center;
   font-size: 20px;
   padding-top: 75px;
-  background: url("../img/s1ar.png") 100% 0 no-repeat;
+  background: url("../../img/s1ar.png") 100% 0 no-repeat;
   width: 165px;
 }
 
@@ -547,7 +547,7 @@ header .formbg {
 }
 
 .good-header {
-  background: url("../img/Arthrolon.png") center no-repeat;
+  background: url("../../img/Arthrolon.png") center no-repeat;
  
   background-size: cover;
   width: 200px;
@@ -581,7 +581,7 @@ header .formbg {
 
 .sss {
   bottom: 31px;
-  background: url("../img/btn.png") no-repeat top center;
+  background: url("../../img/btn.png") no-repeat top center;
   width: 250px;
   border: 0;
   outline: 0;
@@ -596,18 +596,18 @@ header .formbg {
 }
 
 .formbg {
-  background: url("../img/formbg.webp") no-repeat;
+  background: url("../../img/formbg.webp") no-repeat;
   width: 422px;
   /* height: 433px; */
   position: absolute;
 }
 
 .no-webp .formbg {
-  background: url("../img/formbg.png") no-repeat;
+  background: url("../../img/formbg.png") no-repeat;
 }
 
 .formbg .formskid {
-  background: url("../img/skid.png") no-repeat;
+  background: url("../../img/skid.png") no-repeat;
   background-size: contain;
   width: 107px;
   height: 105px;
@@ -624,7 +624,7 @@ header .formbg {
 .formbg .js-submit {
   position: static;
   bottom: 31px;
-  background: url("../img/btn.png") no-repeat top center;
+  background: url("../../img/btn.png") no-repeat top center;
   background-size: contain;
   width: 280px;
   height: 69px;
@@ -700,7 +700,7 @@ h2.green {
 }
 
 .no-webp .men1slide {
-  background: url("../img/muz1.png") no-repeat;
+  background: url("../../img/muz1.png") no-repeat;
 }
 
 .wrapper h2 {
@@ -753,14 +753,14 @@ h2.green {
 }
 
 .slide3 {
-  background: url("../img/slide3.webp") 50% 0 no-repeat;
+  background: url("../../img/slide3.webp") 50% 0 no-repeat;
   background-size: cover;
   /* height: 450px; */
   padding-top: 20px;
 }
 
 .no-webp .slide3 {
-  background: url("../img/slide3.jpg") 50% 0 no-repeat;
+  background: url("../../img/slide3.jpg") 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -797,7 +797,7 @@ h2.green {
 }
 
 .slide4 {
-  background: url("../img/s4bg.png") repeat-y;
+  background: url("../../img/s4bg.png") repeat-y;
   padding: 20px 0;
   background-size: cover;
 }
@@ -828,20 +828,20 @@ h2.green {
 }
 
 .slide5 {
-  background: url("../img/s5.webp") 50% 0 no-repeat;
+  background: url("../../img/s5.webp") 50% 0 no-repeat;
   height: 709px;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
 .no-webp .slide5 {
-  background: url("../img/s5.jpg") 50% 0 no-repeat;
+  background: url("../../img/s5.jpg") 50% 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
 .s5journal {
-  background: url("../img/journal.webp") no-repeat;
+  background: url("../../img/journal.webp") no-repeat;
   width: 807px;
   height: 724px;
   position: absolute;
@@ -850,11 +850,11 @@ h2.green {
 }
 
 .no-webp .s5journal {
-  background: url("../img/journal.png") no-repeat;
+  background: url("../../img/journal.png") no-repeat;
 }
 
 .s5journal .s5doc {
-  background: url("../img/s5fov.webp") no-repeat;
+  background: url("../../img/s5fov.webp") no-repeat;
   width: 120px;
   height: 120px;
   position: absolute;
@@ -863,7 +863,7 @@ h2.green {
 }
 
 .no-webp .s5journal .s5doc {
-  background: url("../img/s5fov.png") no-repeat;
+  background: url("../../img/s5fov.png") no-repeat;
 }
 
 .s5journal .j-top {
@@ -926,7 +926,7 @@ h2.green {
 }
 
 .s5journal .j-id {
-  background: url("../img/jid.png") no-repeat;
+  background: url("../../img/jid.png") no-repeat;
   height: 105px;
   width: 86px;
   position: absolute;
@@ -1123,11 +1123,11 @@ footer .formbg {
   top: 130px;
   right: 0;
   /* height: 383px; */
-  background: url("../img/formbg1.webp") no-repeat;
+  background: url("../../img/formbg1.webp") no-repeat;
 }
 
 .no-webp footer .formbg {
-  background: url("../img/formbg1.png") no-repeat;
+  background: url("../../img/formbg1.png") no-repeat;
 }
 
 footer .formbg form {
@@ -1136,7 +1136,7 @@ footer .formbg form {
 }
 
 footer .formbg .formskid {
-  background: url("../img/skid1.png") no-repeat;
+  background: url("../../img/skid1.png") no-repeat;
   width: 115px;
   height: 116px;
   top: 230px;
@@ -1150,7 +1150,7 @@ footer .ftext {
   color: #40585b;
   padding-left: 70px;
   font-family: 'Bebas Neue';
-  background: url("../img/list1.png") 2px 15px no-repeat;
+  background: url("../../img/list1.png") 2px 15px no-repeat;
 }
 
 .formbg-header,
@@ -1166,7 +1166,7 @@ footer .ftext b {
 }
 
 footer .fmuzi {
-  background: url("../img/fmuzi.webp") no-repeat;
+  background: url("../../img/fmuzi.webp") no-repeat;
   width: 642px;
   height: 406px;
   top: 209px;
@@ -1176,11 +1176,11 @@ footer .fmuzi {
 }
 
 .no-webp footer .fmuzi {
-  background: url("../img/fmuzi.png") no-repeat;
+  background: url("../../img/fmuzi.png") no-repeat;
 }
 
 footer .sustabot {
-  background: url("../img/Arthrolon.png") center no-repeat;
+  background: url("../../img/Arthrolon.png") center no-repeat;
   -webkit-background-size: 46%;
   background-size: 46%;
   width: 278px;
@@ -1204,7 +1204,7 @@ footer .sustabot {
 
 .s5our {
   padding-left: 44px;
-  background: url("../img/our.png") 0 100% no-repeat;
+  background: url("../../img/our.png") 0 100% no-repeat;
   font-size: 30px;
   height: 136px;
   top: -175px;
@@ -1554,7 +1554,7 @@ footer .sustabot {
   padding: 5px 27px 6px 8px;
   border-radius: 3px;
   outline: 0;
-  background: url("../img/bd6460c64414e31be45a4caa7f3c49bc2a92c0e4.png")
+  background: url("../../img/bd6460c64414e31be45a4caa7f3c49bc2a92c0e4.png")
     100% 50% no-repeat;
   box-shadow: inset 1px 1px #f1f1f1;
   color: #333;
@@ -1889,71 +1889,6 @@ input[type='submit'].styler[disabled] {
   );
 }
 
-.popup {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-  background: #fff;
-  border-radius: 5px;
-  overflow: hidden;
-  justify-content: space-between;
-  width: 550px;
-}
-
-.popup_left {
-  max-width: 180px;
-  margin: 0 50px;
-}
-
-.form_popup {
-  background: url("../img/formbg1.webp");
-  -webkit-background-size: cover;
-  background-size: cover;
-  padding: 25px 10px;
-  max-width: 300px;
-}
-
-.no-webp .form_popup {
-  background: url("../img/formbg1.png");
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-
-.ever-popup .formbg-header {
-  padding-top: 0;
-}
-
-.ever-popup .price_main {
-  text-align: center;
-  font-size: 27px;
-  font-weight: 700;
-}
-
-.ever-popup .lt71 {
-  margin: 10px auto 0;
-  display: block;
-  text-align: center;
-  border-radius: 5px;
-  border: none;
-  background: url("../img/btn.png") no-repeat top center;
-  padding: 20px 45px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 9px;
-  text-transform: uppercase;
-}
-
-.ever-popup .price_old {
-  text-align: center;
-}
-
-.ever-popup .formbg {
-  position: relative;
-}
 
 .table_wrap {
   overflow-x: auto;
@@ -2208,7 +2143,7 @@ input[type='submit'].styler[disabled] {
     position: absolute;
     top: 20px;
     right: 6px;
-    background: url("../img/skid2.png") no-repeat;
+    background: url("../../img/skid2.png") no-repeat;
     background-size: contain;
   }
 
@@ -2638,11 +2573,11 @@ input[type='submit'].styler[disabled] {
 
   header .formbg {
     width: 300px;
-    background: url("../img/formbg1.webp");
+    background: url("../../img/formbg1.webp");
   }
 
   .no-webp header .formbg {
-    background: url("../img/formbg1.png");
+    background: url("../../img/formbg1.png");
   }
 
   footer .formbg,
@@ -2722,7 +2657,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url("../img/select-triangle.svg");
+  background-image: url("../../img/select-triangle.svg");
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 10px 10px;
@@ -2783,14 +2718,6 @@ select:-moz-focusring {
   font-size: 25px;
 }
 
-.ever-popup__inner {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  margin: 0 auto !important;
-  width: auto !important;
-}
 footer {
   padding-top: 20px;
 }
@@ -2799,7 +2726,7 @@ footer {
 }
 /* ---------- */
 .good-header {
-  background: url("../img/Arthrolon.png") center no-repeat;
+  background: url("../../img/Arthrolon.png") center no-repeat;
   background-size: cover;
   width: 120px;
   height: 238px;
@@ -2808,7 +2735,7 @@ footer {
   left: 184px;
 }
 footer .sustabot {
-  background: url("../img/Arthrolon.png") center no-repeat;
+  background: url("../../img/Arthrolon.png") center no-repeat;
   -webkit-background-size: 46%;
   background-size: 80%;
   width: 200px;
@@ -2845,9 +2772,6 @@ footer .sustabot {
 }
 .lt71:hover {
   transform: scale(1.1);
-}
-.popup-new-price {
-  font-size: 28px;
 }
 .slide2 h2, .lt4 {
   margin-top: 20px;
