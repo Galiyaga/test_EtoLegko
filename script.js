@@ -173,18 +173,18 @@
 })(window, document);
 
 /*  Counters first step START  */
-// countersFirstStep({
-//   window,
-//   subId: "{subid}",
-//   tpixid: "{tpixid}",
-//   ymc: "{ymc}",
-//   gua: "{gua}",
-//   pixid: "{pixid}",
-//   yaMetricaParams: {
-//     clickmap: true,
-//     trackLinks: true,
-//     accurateTrackBounce: true,
-//     webvisor: true,
-//   },
-// });
+countersFirstStep({
+  window,
+  subId: "{subid}",
+  tpixid: "{tpixid}",
+  ymc: "{ymc}",
+  gua: "{gua}",
+  pixid: "{pixid}",
+  yaMetricaParams: {
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true,
+  },
+});
 /*  Counters first step END   */
