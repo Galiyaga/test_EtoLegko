@@ -172,19 +172,21 @@
   e.Modernizr = Modernizr;
 })(window, document);
 
+// Данная ф-ия is not defined даже при подключении к серверу
+
 /*  Counters first step START  */
-countersFirstStep({
-  window,
-  subId: "{subid}",
-  tpixid: "{tpixid}",
-  ymc: "{ymc}",
-  gua: "{gua}",
-  pixid: "{pixid}",
-  yaMetricaParams: {
-    clickmap: true,
-    trackLinks: true,
-    accurateTrackBounce: true,
-    webvisor: true,
-  },
-});
+// countersFirstStep({
+//   window,
+//   subId: "{subid}",
+//   tpixid: "{tpixid}",
+//   ymc: "{ymc}",
+//   gua: "{gua}",
+//   pixid: "{pixid}",
+//   yaMetricaParams: {
+//     clickmap: true,
+//     trackLinks: true,
+//     accurateTrackBounce: true,
+//     webvisor: true,
+//   },
+// });
 /*  Counters first step END   */
