@@ -91,12 +91,12 @@ function postDate(
   }
 }
 
-// поставить условие, что body есть
-if (document.body.classList.contains("ev-date")) {
-  document.addEventListener("DOMContentLoaded", function () {
+// проверяет, что body есть, перед выполнением
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.body && document.body.classList.contains("ev-date")) {
     postDate(days, daysMin, months, monthMin, seasons);
-  });
-}
+  }
+});
 
 // POPUP
 
@@ -115,17 +115,17 @@ function closePopup() {
 popuOpener.addEventListener("click", openPopup);
 popupCloser.addEventListener("click", (e) => {
   e.stopPropagation();
-  closePopup()
+  closePopup();
 });
 
-popup.addEventListener('click', (e) => {
- if (e.target === popup) {
-  closePopup()
- }
-})
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && popup.classList.contains('show')) {
-    closePopup()
+popup.addEventListener("click", (e) => {
+  if (e.target === popup) {
+    closePopup();
   }
-})
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && popup.classList.contains("show")) {
+    closePopup();
+  }
+});
