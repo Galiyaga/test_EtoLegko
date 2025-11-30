@@ -100,20 +100,32 @@ if (document.body.classList.contains("ev-date")) {
 
 // POPUP
 
-const popuOpener = document.getElementById("open-popup")
-const popupCloser = document.getElementById("close-popup")
-const popup = document.getElementById("popup-window")
+const popuOpener = document.getElementById("open-popup");
+const popupCloser = document.getElementById("close-popup");
+const popup = document.getElementById("popup-window");
 
 function openPopup() {
-    popup.showModal()
+  popup.classList.add("show");
 }
 
 function closePopup() {
-    popup.close()
+  popup.classList.remove("show");
 }
 
-popuOpener.addEventListener('click', openPopup)
-popupCloser.addEventListener('click', (e) => {
-    e.stopPropagation()
-    close()
+popuOpener.addEventListener("click", openPopup);
+popupCloser.addEventListener("click", (e) => {
+  e.stopPropagation();
+  closePopup()
+});
+
+popup.addEventListener('click', (e) => {
+ if (e.target === popup) {
+  closePopup()
+ }
+})
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && popup.classList.contains('show')) {
+    closePopup()
+  }
 })
