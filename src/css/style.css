@@ -2869,9 +2869,6 @@ header .formbg {
     max-width: 150px!important;
   }
 
-  .popup_left {
-    display: none;
-  }
   .popup {
     width: 290px;
   }

@@ -167,7 +167,7 @@
                 Ordenar
               </button>
               <div class="future-date">
-                Appuntamento 3 giorni dopo: <span class="date3"></span>
+                Data di consegna: <span class="date3"></span>
               </div>
               <input name="subId" type="hidden" value="{subid}" />
               <input name="offerId" type="hidden" value="{offer_id}" />
@@ -221,7 +221,7 @@
             </div>
           </div>
           <div>
-            <button class="btn_popup" id="open-popup" aria-haspopup="dialog" aria-controls="popup-window">Popup</button>
+            <button class="btn_popup" id="open-popup">Popup</button>
           </div>
         </div>
       </div>
@@ -474,15 +474,14 @@
                 required
               />
 
-              <button
-                class="js-submit pts js_submit lt71"
-                type="submit"
-                disabled
-              >
+              <button class="js-submit pts js_submit lt71" type="submit">
                 Ordenar
               </button>
               <input type="hidden" name="subId" value="{subid}" />
               <input type="hidden" name="offerId" value="{offer_id}" />
+              <div class="future-date">
+                Data di consegna: <span class="date3"></span>
+              </div>
             </form>
           </div>
         </div>
@@ -519,56 +518,60 @@
         <div class="ever-popup__close" id="close-popup"></div>
         <div class="wrap_popup ever-popup__body">
           <div class="popup">
-            <div class="popup_left">
-              <picture>
-                <source srcset="../../img/Arthrolon.png" type="image/png" />
-                <img
-                  style="width: 180px"
-                  src="../../img/Arthrolon.png"
-                  alt=""
-                />
-              </picture>
-            </div>
-            <div class="popup_right">
-              <div class="form_popup">
-                <div class="formbg-header lt67">¡Ordene ahora!</div>
-                <!-- --- -->
-                <div class="price-wrap last">
-                  <div class="wrap-block">
-                    <div class="p__title">Precio antiguo</div>
-                    <div
-                      class="js_old_price_curs price_old lt14"
-                      style="text-align: center; text-decoration: line-through"
+            <div class="form_popup">
+              <div class="promotion-text">
+                <span class="highlight"
+                  >3 <span style="color: black">paquates</span> al precio de
+                  2-x</span
+                >
+                <span class="highlight">50 % de descuento</span>
+              </div>
+              <div class="price-wrap_popup">
+                <div class="price-wrap_popup__last">
+                  <div class="js_old_price_curs price_old lt14">
+                    <span
+                      class="x_price_previous"
+                      style="text-decoration: line-through red"
+                      >298</span
                     >
-                      <span
-                        class="x_price_previous"
-                        style="text-decoration: line-through"
-                        >298</span
-                      >
-                      <span
-                        class="x_currency"
-                        style="text-decoration: line-through"
-                        >pen</span
-                      >
-                    </div>
-                  </div>
-                  <div class="wrap-block">
-                    <div class="p__title">Precio nuevo</div>
-                    <div
-                      class="js_new_price_curs price_main lt13 popup-new-price"
-                      style="
-                        text-align: center;
-                        color: #016c9e;
-                        font-weight: 700;
-                        text-align: center;
-                      "
-                    >
-                      <span class="x_price_current">149</span>
-                      <span class="x_currency">pen</span>
-                    </div>
+                    <span class="x_currency">pen</span>
                   </div>
                 </div>
+                <div
+                  class="js_new_price_curs price_main lt13 popup-new-price"
+                  style="color: #016c9e; font-weight: 700; text-align: center"
+                >
+                  <span class="x_price_current formbg-header">149</span>
+                  <span class="x_currency formbg-header">pen</span>
+                </div>
               </div>
+              <form
+                action="api.php"
+                method="POST"
+                class="x_order_form orderformcdn order_form f-form"
+              >
+                <input
+                  class="inp"
+                  type="text"
+                  placeholder="Introduce tu nombre"
+                  required
+                />
+                <input
+                  class="inp only_number phone"
+                  type="tel"
+                  placeholder="Introduce tu número de teléfono"
+                  required
+                />
+                <button type="submit">¡No te Pierdas el 3x2!</button>
+                <div class="future-date">
+                  Data di consegna: <span class="date3"></span>
+                </div>
+                <div class="future-date">
+                  Solo hasta el <span class="highlight"> 1 de noviember</span>
+                </div>
+                <input name="subId" type="hidden" value="{subid}" />
+                <input name="offerId" type="hidden" value="{offer_id}" />
+              </form>
             </div>
           </div>
         </div>

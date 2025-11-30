@@ -1,8 +1,8 @@
 .future-date {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .btn_popup {
@@ -136,13 +136,6 @@
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
-  justify-content: space-between;
-  width: 550px;
-}
-
-.popup_left {
-  max-width: 180px;
-  margin: 0 50px;
 }
 
 .form_popup {
@@ -150,7 +143,30 @@
   -webkit-background-size: cover;
   background-size: cover;
   padding: 25px 10px;
-  max-width: 300px;
+  max-width: 350px;
+  min-height: 400px;
+}
+
+.form_popup form input {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.promotion-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.price-wrap_popup {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  justify-content: space-around;
 }
 
 .no-webp .form_popup {
@@ -183,8 +199,36 @@
   text-transform: uppercase;
 }
 
+.ever-popup button {
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 25px 45px;
+  background-color: rgb(67, 188, 188);
+  box-shadow: 3px 2px rgba(0, 0, 0, 0.07);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 20px;
+  line-height: 9px;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #016c9e;
+}
+
 .ever-popup .price_old {
   text-align: center;
+}
+
+.lt14 {
+  color: #303233;
+  opacity: 0.7;
+  font-weight: 700;
+  font-size: 3.1rem;
+  font-family: "PT Sans", sans-serif;
 }
 
 .ever-popup .formbg {
